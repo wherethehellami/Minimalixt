@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    font-family: 'Dosis', sans-serif;
+    /* background-image: url(/MinimAliXt/ABS1.png);
+    background-size:cover ; */
+    height: 100%;
+ background-color: black;
+ color: white;
+}
+.parallax{
+      /* Full height */
+  height: 100%; 
+/* background-image: url(/MinimAliXt/ABS2.png); */
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax2{
+    height: 100%; 
+    /* background-image: url(/MinimAliXt/ABS2.png); */
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+header{
+    /* margin: 10px; */
+    width: 100%;
+    height: 50px;
+    border-bottom: 3px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    -webkit-box-shadow: 3px 10px 20px -5px rgba(255,255,255,0.5);
+-moz-box-shadow: 3px 10px 20px -5px rgba(255,255,255,0.5);
+box-shadow: 3px 10px 20px -5px rgba(255,255,255,0.7);
+}
+.logo{
+    font-size: 35px;
+padding: 10px;
+    /* padding-left: 10px; */
+}
+.items{
+    /* display: flex; */
+    float: right;
+    margin: 10px;
+    
+}
+.items li{
+    display: flex;
+    float: right;
+    font-weight: 300;
+    list-style-type: none;
+}
